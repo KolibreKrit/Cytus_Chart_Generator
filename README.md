@@ -3,7 +3,10 @@ Creates charts for Cytus II based on music
 
 # How to make charts
 To create charts, first run song file through SpleeterGUI (Parts to separate = 4; check Recombine: Vocal, Bass, and Other)
-Move [song_name].wav, [song_name]-recombine.wav, and [song_name]/drums.wav to data/songs/[song_name]; rename [song_name]-recombine.wav to [song_name]-recombined.wav
+
+Move [song_name].wav, [song_name]-recombine.wav, and [song_name]/drums.wav to data/songs/[song_name]; 
+
+Rename [song_name]-recombine.wav to [song_name]-recombined.wav
 and drums.wav to [song_name]-drums.wav.
 
 This is important for making charts that play on both sides of the screen; using Spleeter is not required as long as you have multiple tracks of the same song. Just be sure to rename them and put them in data/songs.
@@ -28,8 +31,11 @@ python Procedural.py [song_name]
 
 # Acknowledgements
 Credit for timing models goes to https://gitlab.com/woodyZootopia
+
 BPM detector taken from: https://github.com/scaperot/the-BPM-detector-python
+
 Spleeter is created by Deezer
+
 SpleeterGUI made by Chris Mitchell
 
 # Warning
